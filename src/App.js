@@ -5,6 +5,7 @@ import Profile from "./components/Profile";
 import Signin from "./components/Signin";
 import Signup from "./components/Signup";
 import Navber from "./components/Navber";
+import Footer from './components/Footer'
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
     <BrowserRouter>
       <Navber />
       <Routing />
+      <Footer />
     </BrowserRouter>
   </>;
 }
